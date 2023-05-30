@@ -1,0 +1,31 @@
+.nav-home{
+
+    margin-right: 50px !important;
+    color: white !important;
+}
+
+a{
+
+    text-decoration: none !important;
+}
+
+.nav-about,.nav-contact,.nav-home{
+
+    margin-right: 30px !important;
+    color: white !important;
+   
+}
+.nav-header {
+
+    background-color: black !important;
+}
+
+ul{
+ background-color: black;
+}
+
+.navbar-brand{
+
+    color: white !important;
+    margin-left: 20px;
+}

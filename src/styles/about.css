@@ -1,0 +1,22 @@
+.about{
+
+    margin-top: 180px !important;
+    margin-left: 270px;
+    font-size: 40px !important;
+    /* text-align: center; */
+}
+
+.note{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.note-secondary{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(128,128,132);
+}

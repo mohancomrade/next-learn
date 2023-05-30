@@ -1,10 +1,70 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+// import Image from 'next/image'
+// import styles from './page.module.css'
 
-export default function Home() {
+// import Navbar from "../../components/Navbar";
+// import Footer from "../../components/Footer";
+import Link from "next/link";
+// import Layout from "../../components/Layout";
+import "../styles/home.css";
+import Head from "next/head";
+// import Head from "next/head";
+// import { NextSeo } from "next-seo";
+
+// const homedata = {
+//   title: 'Next | Home',
+//   description: 'This is an example page',
+// };
+
+
+
+function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <>
+    <Head><title>Next | Home </title></Head>
+    <div>
+      {/* <Head> */}
+      {/* <> 
+      <NextSeo title={homedata.title} description={homedata.description} />
+      </> */}
+    
+        {/* <meta name="keyword" content="home" /> */}
+      {/* </Head> */}
+      <div class="center">
+        <img
+          src="https://images.ctfassets.net/c63hsprlvlya/IacLLeOBR5WCvdCPqKuff/6860b5cc464c4f54703a2befa3f706b4/nextjs3.webp"
+          className="next-img"
+          alt="Next.js Logo"
+        />
+        
+      </div>
+      <p className="home-text">Intoduction</p>
+    
+
+      <div className='note'>
+      <div class="note-secondary">
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit.And the Next is use in Pre-Rendering <br></br>
+  Cum doloremque officia laboriosam. Itaque ex obcaecati architecto! Qui necessitatibus <br></br>
+  delectus placeat illo rem id nisi consequatur esse, sint perspiciatis soluta porro?
+</div>
+
+    </div>
+    <Link href="/nested">
+        {" "}
+        <div class="d-flex justify-content-center">
+  <a class="btn btn-light" href="/users">Go To Users</a>
+</div>
+
+
+      </Link>
+    </div>
+    </>
+  );
+}
+
+export default Home;
+
+{
+  /* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
@@ -89,7 +149,5 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
-    </main>
-  )
+      </div> */
 }

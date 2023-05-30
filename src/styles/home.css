@@ -1,0 +1,43 @@
+.next-img{
+
+    width: 500px !important ;
+    height: 200px;
+    margin-top: 20px;
+   
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    
+  }
+
+  .home-text {
+
+   text-align: center;
+   margin-right: 415px;
+   font-size: 40px;
+  }
+
+  .note{
+
+    text-align: center !important; 
+    margin-left: 60px;
+    color: rgb(128,128,132);
+  }
+
+  .note-secondary{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   align-items: center;
+ }
+.btn-light{
+
+    margin-top: 50px;
+    border-radius: 20px;
+    color:black;
+    margin-bottom: 100px;
+}
